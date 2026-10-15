@@ -1,0 +1,13 @@
+# Keep local Finder metadata; ignore it at every depth
+.DS_Store
+._*
+
+# Local tooling and generated verification artifacts
+node_modules/
+__pycache__/
+*.py[cod]
+/tmp/
+*.log
+.env
+.env.*
+!.env.example

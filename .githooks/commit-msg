@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+version=$(git show :VERSION)
+message=$(cat "$1")
+[ "$message" = "Release $version" ] || { echo "Commit message must be Release $version" >&2; exit 1; }
+git show :CHANGELOG.md | grep -Fq "## $version " || { echo "Release missing from CHANGELOG.md" >&2; exit 1; }

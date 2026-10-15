@@ -1,0 +1,20 @@
+{
+  "source": "arch-umich/output/preview_mesh_data.npz",
+  "source_sha256": "fbe39bf37cec67fde4a402fb010e6733c63cd79f83e1aaf0faa540ed44cf2760",
+  "target_m": [
+    0.0,
+    62.0,
+    44.0
+  ],
+  "camera_back": [
+    -0.2353594792203659,
+    0.6537763311676831,
+    0.7191539642844514
+  ],
+  "view": "North-northwest toward Hatcher Library and The Diag",
+  "horizontal_span_m": 410,
+  "resolution": [
+    1400,
+    1000
+  ]
+}
