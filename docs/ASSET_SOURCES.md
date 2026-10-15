@@ -7,4 +7,4 @@ Campus previews are exported renders from the corresponding local campus project
 - `uw`: `arch-uw/output/campus_aerial.png`; original SHA-256 `6d618ba0bd1e25959ae59fdf1afbd81fe9b741069e5967900ee2e0b42723b8af`.
 - `ucsb`: `arch-ucsb/output/campus_aerial.png`; original SHA-256 `bf58bdf6eb480bc315db995c03e8ab9735c9ec465b31b95dcaa4d7a22ec04c37`.
 
-Manrope and Cormorant Garamond are bundled locally under the SIL Open Font License. License files accompany the fonts. The atlas mark is an original SVG made for this project.
+The website uses system Helvetica/Arial and Chinese system fonts. Manrope is retained for raster share-image generation under the SIL Open Font License. Legacy font assets keep their accompanying licenses. The monochrome atlas mark is an original SVG made for this project.

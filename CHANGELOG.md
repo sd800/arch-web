@@ -1,5 +1,12 @@
 # Changelog
 
+## 26.10.15.2 — 2026-10-15
+
+- Redesign the hub as an architectural project catalogue with a cool-white canvas, neutral typography, balanced model thumbnails, an aligned two-column project grid and restrained captions.
+- Remove the oversized preview stage and feature sections; widen page margins and reduce heading sizes for a quieter project index.
+- Retain direct model links, keyboard access, English-first bilingual content, local-file compatibility and the north-northwest UMich thumbnail.
+- Simplify the atlas mark with closed, separated volumes and complete edges; update matching icons and the share image to the new visual direction.
+
 ## 26.10.15.1 — 2026-10-15
 
 - Introduce Campus 3D Models, an architectural atlas linking UChicago, UMich, UW and UC Santa Barbara.
