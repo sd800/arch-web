@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.10.15.6 — 2026-10-15
+
+- Restore the original View model arrow markup, spacing and alignment; use Unicode text presentation to prevent emoji styling without changing the layout box.
+
 ## 26.10.15.5 — 2026-10-15
 
 - Use a theme-colored SVG arrow beside View model on touch devices to prevent iPhone emoji rendering; retain the original desktop glyph and layout.
