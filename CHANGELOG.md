@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.10.15.5 — 2026-10-15
+
+- Use a theme-colored SVG arrow beside View model on touch devices to prevent iPhone emoji rendering; retain the original desktop glyph and layout.
+
 ## 26.10.15.4 — 2026-10-15
 
 - Color each project’s university name, View model label, underline and arrows with its university theme on hover and visible keyboard focus.
