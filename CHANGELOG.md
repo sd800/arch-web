@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.10.15.3 — 2026-10-15
+
+- Correct the archived header screenshot to match the original browser capture byte for byte.
+
 ## 26.10.15.2 — 2026-10-15
 
 - Redesign the hub as an architectural project catalogue with a cool-white canvas, neutral typography, balanced model thumbnails, an aligned two-column project grid and restrained captions.
