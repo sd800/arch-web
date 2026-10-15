@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.15.4 — 2026-10-15
+
+- Color each project’s university name, View model label, underline and arrows with its university theme on hover and visible keyboard focus.
+- Apply smooth scrolling consistently to all in-page links, retaining URL fragments, browser history and reduced-motion support.
+
 ## 26.10.15.3 — 2026-10-15
 
 - Correct the archived header screenshot to match the original browser capture byte for byte.
