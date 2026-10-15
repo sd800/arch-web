@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.15.7 — 2026-10-15
+
+- Draw View model arrows with the same SVG on every device, removing system-font and emoji differences. Preserve the measured original 16 × 24 px arrow box, 25 px text gap and centered alignment.
+- Version the stylesheet URL so refreshed pages load the matching arrow geometry and layout rules.
+
 ## 26.10.15.6 — 2026-10-15
 
 - Restore the original View model arrow markup, spacing and alignment; use Unicode text presentation to prevent emoji styling without changing the layout box.

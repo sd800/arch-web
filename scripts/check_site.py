@@ -2,6 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 import json,re
+from urllib.parse import urlsplit
 R=Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
     def __init__(self):super().__init__();self.tags=[]
@@ -15,7 +16,7 @@ for tag,a in p.tags:
     for key in ['src','href']:
         v=a.get(key,'')
         if v.startswith('#'):assert v[1:]in ids,v
-        elif v and not re.match(r'^[a-z]+:',v):assert(R/v).is_file(),v;assets.append(v)
+        elif v and not re.match(r'^[a-z]+:',v):assert(R/urlsplit(v).path).is_file(),v;assets.append(v)
     if a.get('target')=='_blank':assert'noopener'in a.get('rel','')
     if tag=='img':assert'alt'in a and 'width'in a and 'height'in a
 expected={f'https://{k}.arch.songming.org/'for k in ['uchi','umich','uw','ucsb']}
