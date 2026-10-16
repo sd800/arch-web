@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.16.7 — 2026-10-16
+
+- Consolidate the collection homepage and four campus homepage URLs into one sitemap, removing the five single-page central files and index.
+- Document Google Search Console ownership verification for the combined cross-site sitemap; retain the campus sites' independent sitemaps.
+
 ## 26.10.16.6 — 2026-10-16
 
 - Turn the root sitemap into an index covering the collection website and all four campus subdomains, with one centrally hosted sitemap per site.

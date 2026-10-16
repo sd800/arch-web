@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap><loc>https://arch.songming.org/sitemaps/arch.xml</loc></sitemap>
-  <sitemap><loc>https://arch.songming.org/sitemaps/uchi.xml</loc></sitemap>
-  <sitemap><loc>https://arch.songming.org/sitemaps/umich.xml</loc></sitemap>
-  <sitemap><loc>https://arch.songming.org/sitemaps/uw.xml</loc></sitemap>
-  <sitemap><loc>https://arch.songming.org/sitemaps/ucsb.xml</loc></sitemap>
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://arch.songming.org/</loc></url>
+  <url><loc>https://uchi.arch.songming.org/</loc></url>
+  <url><loc>https://umich.arch.songming.org/</loc></url>
+  <url><loc>https://uw.arch.songming.org/</loc></url>
+  <url><loc>https://ucsb.arch.songming.org/</loc></url>
+</urlset>
