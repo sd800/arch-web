@@ -23,8 +23,14 @@ scale = w / 410.
 projection = np.column_stack(((vertices-center) @ right, (vertices-center) @ up, (vertices-center) @ back))
 screen = np.column_stack((projection[:,0]*scale+w/2, -projection[:,1]*scale+h/2))
 # Keep complete crossing triangles; screen/depth clipping retains correct occlusion.
-triangle_screen = screen[faces]
-mask = (triangle_screen[:,:,0].max(axis=1)>=0)&(triangle_screen[:,:,0].min(axis=1)<w)&(triangle_screen[:,:,1].max(axis=1)>=0)&(triangle_screen[:,:,1].min(axis=1)<h)
+# Clip in bounded blocks: only the Diag view needs rasterization, even when
+# the full campus/context archive contains millions of triangles.
+mask = np.empty(len(faces), dtype=bool)
+for start in range(0, len(faces), 200_000):
+    stop = min(start + 200_000, len(faces))
+    triangle_screen = screen[faces[start:stop]]
+    mask[start:stop] = (triangle_screen[:,:,0].max(axis=1)>=0)&(triangle_screen[:,:,0].min(axis=1)<w)&(triangle_screen[:,:,1].max(axis=1)>=0)&(triangle_screen[:,:,1].min(axis=1)<h)
+del triangle_screen
 faces, colors = faces[mask], colors[mask]
 tri = vertices[faces]
 normals = np.cross(tri[:,1]-tri[:,0], tri[:,2]-tri[:,0]); normals /= np.maximum(np.linalg.norm(normals,axis=1)[:,None],1e-10)

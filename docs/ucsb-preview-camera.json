@@ -1,0 +1,34 @@
+{
+  "source": "docs/previews/ucsb-core.png",
+  "source_sha256": "b0b193d75498a62986526a65b8e1678bf94309e33fe5d2ea8164d5e770ef42e6",
+  "model_release": "26.10.16.5",
+  "model_sha256": "ea8ced8f7bd42fe22c9f8545147996d12310a6fec5052df4c35104c221975769",
+  "full_geometry_triangles": 4956940,
+  "uses_regional_lod": false,
+  "output_resolution": [
+    1400,
+    1000
+  ],
+  "capture": "Lossless browser Save view PNG after loading the complete exact CAD stream; regional and campus-only browsing descriptors disabled in an ignored local capture page",
+  "source_resolution": [
+    1440,
+    975
+  ],
+  "camera_direction": [
+    -0.55,
+    -1.65,
+    1.35
+  ],
+  "target_xy_m": [
+    130,
+    -90
+  ],
+  "fit_box_size_m": [
+    1260,
+    1060,
+    130
+  ],
+  "padding": 1.16,
+  "view": "Historical initial Core view; target, orientation, scale and crop retained",
+  "crop": "Centered ImageOps.fit, unchanged from original import"
+}

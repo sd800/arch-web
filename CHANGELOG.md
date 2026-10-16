@@ -1,5 +1,11 @@
 # Changelog
 
+## 26.10.16.4 — 2026-10-16
+
+- Refresh UChicago, UMich and UC Santa Barbara desktop/mobile previews and share-image tiles from the latest complete original CAD geometry, preserving their established cameras and crops.
+- Use full-resolution model geometry for this preview refresh; bypass regional LOD and campus-only browsing derivatives in the temporary UCSB capture. Keep the live campus performance optimizations intact.
+- Bound temporary triangle-projection allocations in the UMich offline preview renderer while preserving the same complete source geometry and output. Refresh image cache versions and source/model provenance.
+
 ## 26.10.16.3 — 2026-10-16
 
 - Keep the header and footer Campus 3D Models wordmarks in the same font family in English and Chinese, independent of the Chinese body font. Refresh the stylesheet cache version.

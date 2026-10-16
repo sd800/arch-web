@@ -1,0 +1,39 @@
+{
+  "source": "docs/previews/uchi-source.png",
+  "source_sha256": "5440824d4a732a812edf3db98a160bb4a966c37ab84f9f81e005d6d0f74994e6",
+  "model_release": "26.10.16.5",
+  "model_sha256": "62ec875d34539d43582d226dc6540ca95cec2fa3488c7ff66b4ec9bafa418650",
+  "full_geometry_triangles": 1781828,
+  "uses_regional_lod": false,
+  "output_resolution": [
+    1400,
+    1000
+  ],
+  "target_m": [
+    627.5395420697386,
+    683.6880956815206,
+    28.536222931037923
+  ],
+  "camera_back": [
+    0.6007044523039057,
+    -0.4962341127727917,
+    0.6268220371866843
+  ],
+  "frame_height_m": 1530.7629937285533,
+  "resolution": [
+    2400,
+    1850
+  ],
+  "crop": [
+    350,
+    250,
+    2120,
+    1680
+  ],
+  "capture": "Depth-buffer render of the complete original CAD mesh arrays, using the original orthographic projection, lighting and framing",
+  "source_resolution": [
+    2400,
+    1850
+  ],
+  "encoding": "Centered ImageOps.fit after the original crop; WebP quality 87, mobile quality 85"
+}

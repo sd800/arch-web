@@ -1,6 +1,6 @@
 {
   "source": "arch-umich/output/preview_mesh_data.npz",
-  "source_sha256": "fbe39bf37cec67fde4a402fb010e6733c63cd79f83e1aaf0faa540ed44cf2760",
+  "source_sha256": "f3f074f856afe9533a34b1026093bd463f5353d238c43ccbdb21fbc7d236f9a7",
   "target_m": [
     0.0,
     62.0,
@@ -16,5 +16,14 @@
   "resolution": [
     1400,
     1000
-  ]
+  ],
+  "model_release": "26.10.16.7",
+  "model_sha256": "02e1eabc7325a51c9cb5adf15dcc5c08e9163947f7fd27d63eaf5910dfd95e48",
+  "full_geometry_triangles": 9369232,
+  "uses_regional_lod": false,
+  "output_resolution": [
+    1400,
+    1000
+  ],
+  "capture": "Depth-buffer render of the complete original CAD mesh arrays, clipped only to the historical camera viewport; no geometry simplification or LOD assets"
 }
