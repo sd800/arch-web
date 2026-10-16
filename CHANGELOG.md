@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.10.16.3 — 2026-10-16
+
+- Keep the header and footer Campus 3D Models wordmarks in the same font family in English and Chinese, independent of the Chinese body font. Refresh the stylesheet cache version.
+
 ## 26.10.16.2 — 2026-10-16
 
 - Refresh the UW desktop/mobile collection previews and share-image tile from the latest model, including the corrected West Gatehouse and traffic island.
