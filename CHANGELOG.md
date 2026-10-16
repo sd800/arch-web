@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.16.5 — 2026-10-16
+
+- Correct missing lawn areas and surface appearance in the UMich and UChicago previews by exporting through the same browser renderer used by the interactive maps. Preserve the established cameras, crops and complete original CAD geometry.
+- Replace the raw-mesh offline preview renderer with a PNG-only browser-export encoder; retain lossless source views and refresh desktop/mobile thumbnails, share-image tiles and image cache versions.
+
 ## 26.10.16.4 — 2026-10-16
 
 - Refresh UChicago, UMich and UC Santa Barbara desktop/mobile previews and share-image tiles from the latest complete original CAD geometry, preserving their established cameras and crops.

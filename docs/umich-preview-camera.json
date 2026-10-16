@@ -1,6 +1,6 @@
 {
-  "source": "arch-umich/output/preview_mesh_data.npz",
-  "source_sha256": "f3f074f856afe9533a34b1026093bd463f5353d238c43ccbdb21fbc7d236f9a7",
+  "source": "docs/previews/umich-diag.png",
+  "source_sha256": "14b361d7037e69ee84942259fa683e81cf55be91af10e840df7727876739dfde",
   "target_m": [
     0.0,
     62.0,
@@ -25,5 +25,9 @@
     1400,
     1000
   ],
-  "capture": "Depth-buffer render of the complete original CAD mesh arrays, clipped only to the historical camera viewport; no geometry simplification or LOD assets"
+  "capture": "Native browser Save view PNG from the complete original CAD model, using the current website material preparation, cartographic surface order and terrain lighting; regional LOD disabled",
+  "source_resolution": [
+    1400,
+    1000
+  ]
 }
