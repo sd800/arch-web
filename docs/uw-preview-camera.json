@@ -1,8 +1,8 @@
 {
-  "source": "arch-uw/output/campus_aerial.png",
-  "model_release": "26.10.16.4",
-  "source_sha256": "511fca11ae21a785c88fcc46d8f7e5151156a3b05b8bfb0329383ebbb77f31db",
-  "model_sha256": "d16648a0b34adcce031184485c8a1ebc54bcca9a592035c3e64db2bf41b5cc7a",
+  "source": "docs/previews/uw-core.png",
+  "model_release": "26.10.16.6",
+  "source_sha256": "6760d7412331570795033c728a5ebdabaebddbb82c58e56e3dfa90b4ed2e1d3a",
+  "model_sha256": "bbcdbe768845e412ee0d7ae59f64816eb6c711f0c6df7f7b44d002631fe1bb3f",
   "source_resolution": [
     1440,
     975
@@ -30,5 +30,7 @@
     1000
   ],
   "crop": "Centered ImageOps.fit, unchanged from original import",
-  "capture": "Lossless Save view canvas PNG, 2160 x 1462 native pixels, resampled to the historical 1440 x 975 source dimensions"
+  "capture": "Lossless Save view canvas PNG at 1440 x 975 native pixels; unmodified initial Core camera from the latest model",
+  "model_commit": "9493be867eddba60482ccd75bfea19b9c488b563",
+  "previous_capture_sha256": "511fca11ae21a785c88fcc46d8f7e5151156a3b05b8bfb0329383ebbb77f31db"
 }

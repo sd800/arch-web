@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.16.2 — 2026-10-16
+
+- Refresh the UW desktop/mobile collection previews and share-image tile from the latest model, including the corrected West Gatehouse and traffic island.
+- Preserve the established Core camera direction, scale, target and crop; refresh image cache versions and retain the lossless source render with model provenance.
+
 ## 26.10.16.1 — 2026-10-16
 
 - Refresh the UW collection thumbnails and its share-image tile using the current refined model, including the updated Suzzallo entrance and campus highlights.
