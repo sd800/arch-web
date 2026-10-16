@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.16.6 — 2026-10-16
+
+- Turn the root sitemap into an index covering the collection website and all four campus subdomains, with one centrally hosted sitemap per site.
+- Document cross-site ownership declarations and validate the index and all five canonical homepage entries.
+
 ## 26.10.16.5 — 2026-10-16
 
 - Correct missing lawn areas and surface appearance in the UMich and UChicago previews by exporting through the same browser renderer used by the interactive maps. Preserve the established cameras, crops and complete original CAD geometry.

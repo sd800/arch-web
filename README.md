@@ -28,3 +28,5 @@ The intended domain is **arch.songming.org**. Serve this directory as a static s
 Four aligned project entries open their campus models in new tabs. The restrained layout uses wider margins, model thumbnails and neutral captions. Keyboard navigation and reduced-motion preferences are supported.
 
 Source model imagery and font licenses are recorded in [Asset sources](docs/ASSET_SOURCES.md). This hub is an independent project and is not an official university service. Individual campus sites retain their source/measurement notes and CAD downloads.
+
+The root `sitemap.xml` is a sitemap index for this hub and the four campus sites. Its five files in `sitemaps/` each contain URLs from one host. Every campus keeps its own sitemap and also declares its matching central file in `robots.txt`; the campus packaging scripts preserve that declaration. The central files omit optional `lastmod` values so model updates do not leave duplicated modification dates stale. This follows [sitemap cross-submission via robots.txt](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap#sitemap-cross-submission-with-robotstxt).
