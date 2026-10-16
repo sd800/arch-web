@@ -1,0 +1,34 @@
+{
+  "source": "arch-uw/output/campus_aerial.png",
+  "model_release": "26.10.16.4",
+  "source_sha256": "511fca11ae21a785c88fcc46d8f7e5151156a3b05b8bfb0329383ebbb77f31db",
+  "model_sha256": "d16648a0b34adcce031184485c8a1ebc54bcca9a592035c3e64db2bf41b5cc7a",
+  "source_resolution": [
+    1440,
+    975
+  ],
+  "camera_direction": [
+    -0.9,
+    -1.5,
+    1.3
+  ],
+  "target_xy_m": [
+    -14.3477,
+    16.419
+  ],
+  "fit_box_size_m": [
+    610,
+    610,
+    130
+  ],
+  "padding": 1.16,
+  "camera": "Historical initial Core orthographic view; direction, target, scale and frame retained",
+  "previous_source_commit": "17dbda8",
+  "previous_source_sha256": "6d618ba0bd1e25959ae59fdf1afbd81fe9b741069e5967900ee2e0b42723b8af",
+  "output_resolution": [
+    1400,
+    1000
+  ],
+  "crop": "Centered ImageOps.fit, unchanged from original import",
+  "capture": "Lossless Save view canvas PNG, 2160 x 1462 native pixels, resampled to the historical 1440 x 975 source dimensions"
+}

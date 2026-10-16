@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.16.1 — 2026-10-16
+
+- Refresh the UW collection thumbnails and its share-image tile using the current refined model, including the updated Suzzallo entrance and campus highlights.
+- Retain the original UW camera direction, elevation, target, zoom, centered crop and image dimensions; add capture provenance and image cache versioning.
+
 ## 26.10.15.7 — 2026-10-15
 
 - Draw View model arrows with the same SVG on every device, removing system-font and emoji differences. Preserve the measured original 16 × 24 px arrow box, 25 px text gap and centered alignment.
