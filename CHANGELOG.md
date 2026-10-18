@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.10.18.2 — 2026-10-18
+
+- Place © 2026 Songming.org at the footer’s bottom-right domain position, keeping the copyright unlinked and aligned to the page edge on desktop and mobile.
+
 ## 26.10.18.1 — 2026-10-18
 
 - Replace the footer domain link with plain © 2026 Songming.org text, preserving its desktop alignment and mobile layout in both languages.
