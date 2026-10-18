@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.10.18.1 — 2026-10-18
+
+- Replace the footer domain link with plain © 2026 Songming.org text, preserving its desktop alignment and mobile layout in both languages.
+
 ## 26.10.16.7 — 2026-10-16
 
 - Consolidate the collection homepage and four campus homepage URLs into one sitemap, removing the five single-page central files and index.
