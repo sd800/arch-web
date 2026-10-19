@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.10.18.3 — 2026-10-18
+
+- Reorder the campus collection to UW, UC Santa Barbara, UChicago, and UMich, with matching project numbers and structured-list order. Preserve all preview images, copy, styling, and behavior.
+
 ## 26.10.18.2 — 2026-10-18
 
 - Place © 2026 Songming.org at the footer’s bottom-right domain position, keeping the copyright unlinked and aligned to the page edge on desktop and mobile.
