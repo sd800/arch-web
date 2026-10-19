@@ -25,15 +25,16 @@
     1850
   ],
   "crop": [
-    350,
-    250,
-    2120,
-    1680
+    485,
+    429,
+    1985,
+    1501
   ],
   "capture": "Native browser Save view PNG from the complete original CAD model, using the current website material preparation, cartographic surface order and terrain lighting; regional LOD disabled",
   "source_resolution": [
     2400,
     1850
   ],
-  "encoding": "Centered ImageOps.fit after the original crop; WebP quality 87, mobile quality 85"
+  "encoding": "Centered ImageOps.fit after the original crop; WebP quality 87, mobile quality 85",
+  "crop_note": "Tighter campus-centered crop, approximately 18% larger than the preceding thumbnail; original browser camera and source PNG retained."
 }

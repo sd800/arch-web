@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.18.5 — 2026-10-18
+
+- Tighten UChicago's preview crop to enlarge the campus by approximately 18% and reduce empty margins, retaining the original viewing angle and current full-model source image.
+- Refresh both thumbnail sizes and the UChicago share-image tile; preserve all other campus previews, collection order, content and styling.
+
 ## 26.10.18.4 — 2026-10-18
 
 - Refresh only UChicago's preview from the complete current campus model, including its optimized medical district, detailed Crerar Library, refined Science Quadrangle and optimized Harper Memorial Library, with the original browser camera, framing, crop and thumbnail sizes preserved.
