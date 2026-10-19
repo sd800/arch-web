@@ -1,9 +1,9 @@
 {
   "source": "docs/previews/uchi-source.png",
-  "source_sha256": "a324ee4059e656bf729725fa42ed5efcdf0223158d81ae1fb89450bc88051ec9",
-  "model_release": "26.10.18.15",
-  "model_sha256": "419fb11ba320ef900adb24994394dac5f066251ac89223096b057cef7928828c",
-  "full_geometry_triangles": 2603108,
+  "source_sha256": "46a9f4d683904a77072744f7eb77018dfbc9c5575d0a416ef7dff0e2666ad50a",
+  "model_release": "26.10.18.16",
+  "model_sha256": "d9a444ab272ccde921f40b2ea9569483d9e35cc1d488b1c6b431327e96a511de",
+  "full_geometry_triangles": 2988680,
   "uses_regional_lod": false,
   "output_resolution": [
     1400,
@@ -25,10 +25,10 @@
     1850
   ],
   "crop": [
-    485,
-    429,
-    1985,
-    1501
+    560,
+    483,
+    1910,
+    1447
   ],
   "capture": "Native browser Save view PNG from the complete original CAD model, using the current website material preparation, cartographic surface order and terrain lighting; regional LOD disabled",
   "source_resolution": [
@@ -36,5 +36,5 @@
     1850
   ],
   "encoding": "Centered ImageOps.fit after the original crop; WebP quality 87, mobile quality 85",
-  "crop_note": "Tighter campus-centered crop, approximately 18% larger than the preceding thumbnail; original browser camera and source PNG retained."
+  "crop_note": "Another 11% enlargement by a tighter crop about the same image center; original browser camera direction, target and span retained. Complete current detailed model, no regional LOD."
 }

@@ -1,5 +1,11 @@
 # Changelog
 
+## 26.10.18.6 — 2026-10-18
+
+- Enlarge the UChicago collection thumbnail by a further 11% with a tighter centered crop while retaining its recorded viewing direction, target and camera span.
+- Recapture the complete original geometry of UChicago Release 26.10.18.16, including the reconstructed Main Quadrangles and detailed Harper Memorial Library. Update both thumbnail sizes and only the UChicago share-image tile.
+- Preserve campus order, copy, typography, layout, and the other three campus preview images.
+
 ## 26.10.18.5 — 2026-10-18
 
 - Tighten UChicago's preview crop to enlarge the campus by approximately 18% and reduce empty margins, retaining the original viewing angle and current full-model source image.
