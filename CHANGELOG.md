@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.18.4 — 2026-10-18
+
+- Refresh only UChicago's preview from the complete current campus model, including its optimized medical district, detailed Crerar Library, refined Science Quadrangle and optimized Harper Memorial Library, with the original browser camera, framing, crop and thumbnail sizes preserved.
+- Update the UChicago tile in the share image and record capture provenance. Keep the UW, UCSB, UChicago, UMich collection order and all other site content and styling unchanged.
+
 ## 26.10.18.3 — 2026-10-18
 
 - Reorder the campus collection to UW, UC Santa Barbara, UChicago, and UMich, with matching project numbers and structured-list order. Preserve all preview images, copy, styling, and behavior.
