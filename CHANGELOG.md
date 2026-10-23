@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.23.1 — 2026-10-23
+
+- Use "Campus 3D Models - Explore University Campuses" for the browser title, social title metadata and structured website/collection names in both language modes.
+- Preserve visible headings, page content, typography, campus order and images; invalidate the updated language script cache.
+
 ## 26.10.18.6 — 2026-10-18
 
 - Enlarge the UChicago collection thumbnail by a further 11% with a tighter centered crop while retaining its recorded viewing direction, target and camera span.
