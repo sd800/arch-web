@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.10.25.2 — 2026-10-25
+
+- Remove the introductory "Independent campus studies" line and its Chinese translation from the homepage.
+
 ## 26.10.25.1 — 2026-10-25
 
 - Redirect HTTP/HTTPS visits to /index.html and /index to the same site root before model or interface loading; retain the complete query string and fragment and replace the alias history entry.
