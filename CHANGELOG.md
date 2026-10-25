@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.25.1 — 2026-10-25
+
+- Redirect HTTP/HTTPS visits to /index.html and /index to the same site root before model or interface loading; retain the complete query string and fragment and replace the alias history entry.
+- Keep direct local HTML opening and offline editions functional, leave other paths untouched, and preserve page content and model data. Retain the redirect in viewer templates for future packaging.
+
 ## 26.10.23.1 — 2026-10-23
 
 - Use "Campus 3D Models - Explore University Campuses" for the browser title, social title metadata and structured website/collection names in both language modes.
